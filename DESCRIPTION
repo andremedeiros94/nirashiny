@@ -1,0 +1,20 @@
+Package: nirashiny
+Type: Package
+Title: NIRA Shiny Application
+Version: 0.1.0
+Author: André Medeiros
+Maintainer: André Medeiros <medeiros.seeds@gmail.com>
+Description: Aplicação interativa para análise espectral NIR via interface Shiny.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    shiny,
+    bs4Dash,
+    shinyjs,
+    ggplot2,
+    tidyr,
+    dplyr,
+    openxlsx,
+    viridis
+RoxygenNote: 7.2.3
